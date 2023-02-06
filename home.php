@@ -15,7 +15,7 @@ if (!$result) {
     die();
 }
 if ($result->num_rows == 0) {
-    echo "Nema timova";
+    echo "Nema muzicara";
     die();
 }
 ?>
