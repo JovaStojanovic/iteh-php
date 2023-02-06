@@ -135,7 +135,7 @@ $("#btn-izbrisi").click(function () {
   
     request.done(function (response, textStatus, jqXHR) {
       if (response === "Success") {
-        alert("Muzicar je dodat");
+        alert("Muzicar je izmenjen");
         location.reload(true);
         console.log("Muzicar je izmenjen");
       } else console.log("Muzicar nije izmenjen " + response);
